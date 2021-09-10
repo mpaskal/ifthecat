@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+section {
+  height: 100vh;
+}
+section:nth-child(3) {
+  background: lightblue;
+}
+section:nth-child(4) {
+  background: lightgreen;
+}
+section:nth-child(5) {
+  background: purple;
+}
+section:nth-child(6) {
+  background: red;
+}
+section:nth-child(7) {
+  background: yellow;
+}
+.cards {
+  margin: 3rem;
+}
+.landing {
+  height: 80%;
+  width: 80%;
+  background-color: #f7f7f7;
+}
+
+.food {
+  background-image: url("../img/food.jpg");
+  opacity: 0.25;
+  background-size: cover;
+}
