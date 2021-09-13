@@ -4,7 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -12,102 +15,75 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>ifthecat</title>
+    <title>ifTheCat</title>
   </head>
   <body>
+    <!-- nav -->
+
+    <!-- nav -->
     <!-- section 1 -->
     <section>
-      <div class="cards">
-        <!-- row 1-->
-        <div class="row">
-          <div class="col">
-            <div class="card mx-auto mb-3 mt-3" style="width: 80%">
-              <div class="card-body food">
-                <h5 class="card-title">Food</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mx-auto mt-3" style="width: 80%">
-              <div class="card-body">
-                <h5 class="card-title">Today</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- row 3 -->
-        <div class="row">
-          <div class="col">
-            <div class="card mx-auto mb-3" style="width: 80%">
-              <div class="card-body">
-                <h5 class="card-title">Health</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mx-auto mb-3" style="width: 80%">
-              <div class="card-body">
-                <h5 class="card-title">New</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#ifTheCatNavbar"
+            aria-controls="ifTheCatNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="ifTheCatNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fas fa-home"></i> Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-newspaper"></i> News</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-heartbeat"></i> Well Being</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-cat fa-lg"></i> Fun</a
+                >
+              </li>
+            </ul>
+            <span class="navbar-text ml-auto">
+              <a role="button" id="loginButton"
+                ><i class="fa fa-sign-in"></i> Login</a
+              ></span
+            >
           </div>
         </div>
-        <!-- row 3 -->
-        <div class="row">
-          <div class="col">
-            <div class="card mx-auto mb-3" style="width: 80%">
-              <div class="card-body">
-                <h5 class="card-title">Behaviour</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mx-auto mb-3" style="width: 80%">
-              <div class="card-body">
-                <h5 class="card-title">Fun</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
+      </nav>
+      <div class="containter-fluid"></div>
+        <div class="row"></div>
+        <div class="col">
+          <h1 class="text-center mt-3 mb-3">What if the Cat is here?</h1>
         </div>
-        <!-- row 4 -->
         <div class="row">
           <div class="col">
-            <div class="card mx-auto mb-3" style="width: 80%">
-              <div class="card-body">
-                <h5 class="card-title">Emergency</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
+            <img src="/assets/img/cat_bf.jpg" class="img-fluid" alt="..." />
           </div>
+          <div class="col">Family Veterinarians Sevices Breeders Cat Lovers</div>
         </div>
       </div>
     </section>

@@ -1,22 +1,28 @@
+$color-primary: #3046c5;
+$color-secondary: #5637dd;
+$color-pale: #cec8ff;
+$color-mid: #fbe5c8;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
 html,
 body {
   height: 100%;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: $body-font;
 }
-
 section {
   height: 100vh;
 }
-
 section:nth-child(3) {
   background: #fbe5c8;
 }
-
 section:nth-child(4) {
   background: lightgreen;
 }
-
 section:nth-child(5) {
   background: purple;
 }
@@ -24,17 +30,14 @@ section:nth-child(5) {
 .cards {
   margin: 3rem;
 }
-
 .landing {
   height: 80%;
   width: 80%;
   background-color: #f7f7f7;
 }
-
 .food {
   position: relative;
 }
-
 .food::before {
   content: "";
   background-image: url("../img/food.jpg");
@@ -48,11 +51,9 @@ section:nth-child(5) {
   height: auto;
   z-index: 1;
 }
-
 .container {
   color: black;
 }
-
 .card-text {
   font-weight: bold;
   color: black;
@@ -62,31 +63,36 @@ section:nth-child(5) {
 h1,
 h2,
 h3 {
-  font-family: "Lobster", cursive;
+  font-family: $header-font;
 }
 
 h2 {
-  color: #3046c5;
+  color: $color-primary;
 }
 
-header h2 {
-  color: #cec8ff;
+header {
+  h2 {
+    color: $color-pale;
+  }
 }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-image: linear-gradient($color-pale, white);
   padding: 20px 0;
 }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  background-image: linear-gradient(
+    to right,
+    $color-secondary,
+    $color-primary,
+    $color-dark
+  );
   color: white;
 }
 
 .navbar {
-  background-color: #fbe5c8;
+  background-color: $color-mid;
 }
-
-/*# sourceMappingURL=style.css.map */
