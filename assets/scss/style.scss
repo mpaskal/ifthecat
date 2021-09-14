@@ -5,8 +5,8 @@ $color-mid: #fbe5c8;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
-$body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
+$body-font: "Alegreya", sans-serif;
+$header-font: "Alegreya", cursive;
 
 html,
 body {
@@ -25,6 +25,9 @@ section:nth-child(4) {
 }
 section:nth-child(5) {
   background: purple;
+}
+section:nth-child(6) {
+  background: blue;
 }
 
 .cards {
@@ -69,18 +72,15 @@ h3 {
 h2 {
   color: $color-primary;
 }
-
 header {
   h2 {
     color: $color-pale;
   }
 }
-
 .site-footer {
   background-image: linear-gradient($color-pale, white);
   padding: 20px 0;
 }
-
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -92,7 +92,17 @@ header {
   );
   color: white;
 }
-
 .navbar {
   background-color: $color-mid;
+}
+.home-links {
+  margin-top: 5%;
+  font-size: 1.8rem;
+  text-align: center;
+}
+#mainMsg {
+  margin-left: 10%;
+  font-size: 4rem;
+}
+#catWatchers {
 }

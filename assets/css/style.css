@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Alegreya", sans-serif;
 }
 
 section {
@@ -19,6 +19,10 @@ section:nth-child(4) {
 
 section:nth-child(5) {
   background: purple;
+}
+
+section:nth-child(6) {
+  background: blue;
 }
 
 .cards {
@@ -62,7 +66,7 @@ section:nth-child(5) {
 h1,
 h2,
 h3 {
-  font-family: "Lobster", cursive;
+  font-family: "Alegreya", cursive;
 }
 
 h2 {
@@ -87,6 +91,17 @@ header h2 {
 
 .navbar {
   background-color: #fbe5c8;
+}
+
+.home-links {
+  margin-top: 5%;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#mainMsg {
+  margin-left: 10%;
+  font-size: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
