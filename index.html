@@ -28,7 +28,7 @@
   
     <!-- section 1 -->
     <section id="home">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <button
@@ -73,11 +73,10 @@
           </div>
         </div>
       </nav>
-      <div class="containter-fluid"></div>   
-      
-      <div class="row">
+      <div class="containter-fluid p-5">  
+      <div class="row my-3">
         <div class="col">
-          <h1 class="text-center mt-3 mb-3" id="catWatchers">Cats Humans</h1>
+          <h1 class="text-center mb-3" id="catWatchers">Cats Humans</h1>
         </div>
       </div>
       <div class="row">
@@ -88,24 +87,40 @@
       <!-- row 3 -->
         <div class="row">
           <div class="col">
-        <div class="home-links"><a href="#fun">Fun</a></div>
+            <div class="card fun mt-5">
+              <div class="card-body">
+                <div class="home-links"><a href="#fun">Fun</a></div>
+              </div>
+            </div>
           </div>
           <div class="col">
-            <div class="home-links"><a href="#wellbeing">Well Being</a></div>
+            <div class="card well-being mt-5">
+              <div class="card-body">
+                <div class="home-links"><a href="#wellbeing">Well Being</a></div>
+              </div>
+            </div>
           </div>
-           <div class="col">
-            <div class="home-links"><a href="#news">News</a></div>
+            <div class="col">
+              <div class="card news mt-5">
+                <div class="card-body">
+                  <div class="home-links"><a href="#news">News</a></div>
+                </div>
+              </div>
           </div>
         </div>
-        <!-- row 4 -->
       </div>
+    </div>
+    <div class="footer">
+       <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> IfTheCat All Rights Reserved</p>
+    </div>
     </section>
     <!-- section 2 -->
-    <section id="fun"></section>
+    <section id="news"></section>
     <!-- section 3 -->
     <section id="wellbeing"></section>
     <!-- section 4 -->
-    <section id="news"></section>
+    <section id="fun"></section>
+    
 
     <!-- Java Script -->
     <script

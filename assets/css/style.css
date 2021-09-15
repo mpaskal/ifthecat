@@ -14,15 +14,15 @@ section:nth-child(3) {
 }
 
 section:nth-child(4) {
-  background: lightgreen;
+  background: #8fdde7;
 }
 
 section:nth-child(5) {
-  background: purple;
+  background: #b6e5d8;
 }
 
 section:nth-child(6) {
-  background: blue;
+  background: #ffc2c7;
 }
 
 .cards {
@@ -104,4 +104,24 @@ header h2 {
   font-size: 4rem;
 }
 
+.fun {
+  background-color: #ffc2c7;
+}
+
+.well-being {
+  background-color: #b6e5d8;
+}
+
+.news {
+  background-color: #8fdde7;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fbe5c8;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
