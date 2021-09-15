@@ -1,9 +1,8 @@
-$color-primary: #3046c5;
+$color-primary: #fbe5c8;
 $color-secondary: #5637dd;
-$color-pale: #cec8ff;
-$color-mid: #fbe5c8;
-$color-dark: #60106b;
-$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-news: #3046c5;
+$color-wellbeing: teal;
+$color-fun: #c53093;
 
 $body-font: "Alegreya", sans-serif;
 $header-font: "Alegreya", cursive;
@@ -23,14 +22,32 @@ section:nth-child(3) {
 
 section:nth-child(4) {
   background: #8fdde7;
+  h1,
+  h2,
+  h3,
+  p {
+    color: $color-news;
+  }
 }
 
 section:nth-child(5) {
   background: #b6e5d8;
+  h1,
+  h2,
+  h3,
+  p {
+    color: $color-wellbeing;
+  }
 }
 
 section:nth-child(6) {
   background: #ffc2c7;
+  h1,
+  h2,
+  h3,
+  p {
+    color: $color-fun;
+  }
 }
 
 .cards {
@@ -71,33 +88,6 @@ h2,
 h3 {
   font-family: $header-font;
 }
-
-h2 {
-  color: $color-primary;
-}
-header {
-  h2 {
-    color: $color-pale;
-  }
-}
-.site-footer {
-  background-image: linear-gradient($color-pale, white);
-  padding: 20px 0;
-}
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(
-    to right,
-    $color-secondary,
-    $color-primary,
-    $color-dark
-  );
-  color: white;
-}
-.navbar {
-  background-color: $color-mid;
-}
 .home-links {
   margin-top: 5%;
   font-size: 1.8rem;
@@ -109,18 +99,22 @@ header {
 }
 #catWatchers {
 }
+p {
+  font-size: 1.3rem;
+}
+a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
 .fun {
   background-color: #ffc2c7;
 }
-
 .well-being {
   background-color: #b6e5d8;
 }
-
 .news {
   background-color: #8fdde7;
 }
-
 .footer {
   position: fixed;
   left: 0;

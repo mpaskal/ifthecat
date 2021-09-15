@@ -16,13 +16,31 @@ section:nth-child(3) {
 section:nth-child(4) {
   background: #8fdde7;
 }
+section:nth-child(4) h1,
+section:nth-child(4) h2,
+section:nth-child(4) h3,
+section:nth-child(4) p {
+  color: #3046c5;
+}
 
 section:nth-child(5) {
   background: #b6e5d8;
 }
+section:nth-child(5) h1,
+section:nth-child(5) h2,
+section:nth-child(5) h3,
+section:nth-child(5) p {
+  color: teal;
+}
 
 section:nth-child(6) {
   background: #ffc2c7;
+}
+section:nth-child(6) h1,
+section:nth-child(6) h2,
+section:nth-child(6) h3,
+section:nth-child(6) p {
+  color: #c53093;
 }
 
 .cards {
@@ -69,30 +87,6 @@ h3 {
   font-family: "Alegreya", cursive;
 }
 
-h2 {
-  color: #3046c5;
-}
-
-header h2 {
-  color: #cec8ff;
-}
-
-.site-footer {
-  background-image: linear-gradient(#cec8ff, white);
-  padding: 20px 0;
-}
-
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-  color: white;
-}
-
-.navbar {
-  background-color: #fbe5c8;
-}
-
 .home-links {
   margin-top: 5%;
   font-size: 1.8rem;
@@ -102,6 +96,15 @@ header h2 {
 #mainMsg {
   margin-left: 10%;
   font-size: 4rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+a {
+  font-size: 1.3rem;
+  text-decoration: none;
 }
 
 .fun {
