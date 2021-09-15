@@ -3,8 +3,9 @@ var msgs = new Array(
   "Cat's Human",
   "Cat's Lover",
   "Veterinarian",
-  "Breeders",
-  "Business for Cats and their Humans"
+  "Breeder",
+  "Business for Cats and their Humans",
+  "Human"
 );
 
 function displayMessage(milliseconds) {
