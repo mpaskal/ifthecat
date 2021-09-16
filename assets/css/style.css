@@ -115,6 +115,14 @@ p {
 a {
   font-size: 1.3rem;
   text-decoration: none;
+  font-weight: 600;
+}
+
+#id a {
+  color: #ff9a14;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .fun {
