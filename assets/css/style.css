@@ -19,6 +19,7 @@ section:nth-child(2) {
 section:nth-child(2) h1,
 section:nth-child(2) h2,
 section:nth-child(2) h3,
+section:nth-child(2) div,
 section:nth-child(2) p {
   color: #3046c5;
 }
@@ -29,6 +30,7 @@ section:nth-child(3) {
 section:nth-child(3) h1,
 section:nth-child(3) h2,
 section:nth-child(3) h3,
+section:nth-child(3) div,
 section:nth-child(3) p {
   color: teal;
 }
@@ -39,6 +41,7 @@ section:nth-child(4) {
 section:nth-child(4) h1,
 section:nth-child(4) h2,
 section:nth-child(4) h3,
+section:nth-child(4) div,
 section:nth-child(4) p {
   color: #c53093;
 }
