@@ -46,6 +46,10 @@ section:nth-child(4) p {
   color: #c53093;
 }
 
+.navbar-inner {
+  background: transparent;
+}
+
 .cards {
   margin: 3rem;
 }
