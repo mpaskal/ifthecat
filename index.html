@@ -29,52 +29,53 @@
   </head>
   <body onload="window.setTimeout(function(){displayMessage(3000);},3000);">
     <!-- section 1 -->
-    <section id="home">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button
-            class="navbar-toggler ml-auto"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#ifTheCatNavbar"
-            aria-controls="ifTheCatNavbar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#ifTheCatNavbar"
+          aria-controls="ifTheCatNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="ifTheCatNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news"
+                ><i class="fas fa-newspaper"></i> News</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#wellbeing"
+                ><i class="fas fa-heartbeat"></i> Well Being</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fun"
+                ><i class="fas fa-cat fa-lg"></i> Fun</a
+              >
+            </li>
+          </ul>
+          <span class="navbar-text ml-auto">
+            <a role="button" id="loginButton"
+              ><i class="fas fa-sign-in-alt"></i> Login</a
+            ></span
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="ifTheCatNavbar">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="fas fa-home"></i> Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#news"
-                  ><i class="fas fa-newspaper"></i> News</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#wellbeing"
-                  ><i class="fas fa-heartbeat"></i> Well Being</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#fun"
-                  ><i class="fas fa-cat fa-lg"></i> Fun</a
-                >
-              </li>
-            </ul>
-            <span class="navbar-text ml-auto">
-              <a role="button" id="loginButton"
-                ><i class="fas fa-sign-in-alt"></i> Login</a
-              ></span
-            >
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <section id="home">
       <div class="containter-fluid p-5">
         <div class="row my-3">
           <div class="col col-lg-6">
@@ -89,17 +90,18 @@
             <img src="/assets/img/cat_bf.jpg" class="img-fluid" alt="Cat" />
             <span id="mainMsg">Cat is here</span>
           </div>
+          <div class="col col-md-4"></div>
         </div>
         <!-- row 3 -->
         <div class="row">
-          <div class="col">
+          <div class="col col-sm-12 col-md-4">
             <div class="card fun mt-5">
               <div class="card-body">
                 <div class="home-links"><a href="#fun">Fun</a></div>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-sm-12 col-md-4">
             <div class="card well-being mt-5">
               <div class="card-body">
                 <div class="home-links">
@@ -108,7 +110,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-sm-12 col-md-4">
             <div class="card news mt-5">
               <div class="card-body">
                 <div class="home-links"><a href="#news">News</a></div>
@@ -117,16 +119,16 @@
           </div>
         </div>
       </div>
-      <div class="footer">
-        <p>
-          Copyright &copy;
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          IfTheCat. All Rights Reserved
-        </p>
-      </div>
     </section>
+    <div class="footer">
+      <p>
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        IfTheCat. All Rights Reserved
+      </p>
+    </div>
     <!-- section 2 -->
     <section id="news">
       <div class="containter-fluid p-5">
