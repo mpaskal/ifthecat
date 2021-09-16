@@ -16,11 +16,11 @@ body {
 section {
   height: 100vh;
 }
-section:nth-child(1) {
+section:nth-child(2) {
   background: #fbe5c8;
 }
 
-section:nth-child(2) {
+section:nth-child(3) {
   background: #8fdde7;
   h1,
   h2,
@@ -31,7 +31,7 @@ section:nth-child(2) {
   }
 }
 
-section:nth-child(3) {
+section:nth-child(4) {
   background: #b6e5d8;
   h1,
   h2,
@@ -42,7 +42,7 @@ section:nth-child(3) {
   }
 }
 
-section:nth-child(4) {
+section:nth-child(5) {
   background: #ffc2c7;
   h1,
   h2,
