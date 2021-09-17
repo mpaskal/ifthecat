@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   font-family: "Alegreya", sans-serif;
 }
@@ -54,8 +54,33 @@ section:nth-child(4) p {
   font-size: 1vw;
 }
 
+.nav-link:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+.navbar-text:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+.nav-cards {
+  margin-top: 2hv;
+}
+
+.card {
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
 .cards {
   margin: 3rem;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 .landing {
@@ -121,10 +146,19 @@ h3 {
   font-size: 2.5vw;
 }
 
+#main-cat {
+  width: 32vw;
+  height: 42vh;
+}
+
+#main-cat:hover {
+  transform: scale(1.1);
+}
+
 .main-text {
   line-height: 150%;
-  margin-top: 4%;
-  padding-top: 3%;
+  margin-top: 3vh;
+  padding-top: 3vh;
   font-size: 1.2vw;
 }
 
@@ -132,9 +166,53 @@ a {
   text-decoration: none;
 }
 
-#id a {
-  color: #ff9a14;
+.top-row {
+  margin-top: 5vh;
+  margin-bottom: 4vh;
+}
+
+.nav-cards {
+  margin-top: 8vh;
+}
+
+#home {
+  color: #e68405;
+  height: 100vh;
+  background-color: #fbe5c8;
+}
+#home a {
   text-decoration: none;
+  color: #e68405;
+}
+
+#news {
+  color: #3046c5;
+  background: #8fdde7;
+  height: 100vh;
+}
+#news a {
+  text-decoration: none;
+  color: #8fdde7;
+}
+
+#wellbeing {
+  color: teal;
+  background: #b6e5d8;
+  height: 100vh;
+}
+#wellbeing a {
+  text-decoration: none;
+  color: teal;
+}
+
+#fun {
+  color: #c53093;
+  background: #ffc2c7;
+  height: 100vh;
+}
+#fun a {
+  text-decoration: none;
+  color: #c53093;
 }
 
 .fun {
@@ -156,6 +234,7 @@ a {
   width: 100%;
   background: transparent;
   text-align: center;
+  height: auto;
 }
 
 .flex-container {

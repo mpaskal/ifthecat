@@ -29,7 +29,7 @@
   </head>
   <body onload="window.setTimeout(function(){displayMessage(3000);},3000);">
     <!-- section 1 -->
-    <div id="home" class="wrapper flex-container">
+    <div id="home" class="wrapper">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container-fluid navbar-inner">
           <a class="navbar-brand" href="#"></a>
@@ -76,39 +76,39 @@
         </div>
       </nav>
       <div class="containter-fluid p-5">
-        <div class="row my-3">
-          <div class="col col-lg-5">
-            <h1 class="text-center mb-3">You are:</h1>
+        <div class="row top-row">
+          <div class="col-xs-12 col-md-5">
+            <h1 class="text-center">You are:</h1>
           </div>
-          <div class="col col-lg-7">
+          <div class="col-xs-12 col-md-7">
             <h1 class="mb-3" id="catWatchers">Cats Human</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col col-md-8">
-            <img src="/assets/img/cat_bf.jpg" class="img-fluid" alt="Cat" />
+          <div class="col-xs-12 col-md-9">
+            <img src="/assets/img/cat_bf.jpg" id="main-cat" class="img-fluid" alt="Cat" />
             <span id="mainMsg">Cat is here</span>
           </div>
-          <div class="col col-md-1"></div>
-          <div class="col col-md-3 main-text">
+
+          <div class="col-xs-12 col-md-3 main-text">
+            <p>If the cat is present, why?</p>
+            <p>What should you do and what's better to avoid?</p>
             <p>
-              If the cat is present, why? What may they need? Who are they? How
-              can we communicate? What should you do and what's better to avoid?
               Let's discover it together and find the best possible answers.
             </p>
           </div>
         </div>
         <!-- row 3 -->
         <div class="row nav-cards">
-          <div class="col-xm-12 col-md-4">
-            <div class="card fun mt-4">
+          <div class="col-xs-12 col-md-4">
+            <div class="card fun">
               <div class="card-body">
                 <div class="home-links"><a href="#fun">Fun</a></div>
               </div>
             </div>
           </div>
-          <div class="col-xm-12 col-md-4">
-            <div class="card well-being mt-4">
+          <div class="col-xs-12 col-md-4">
+            <div class="card well-being">
               <div class="card-body">
                 <div class="home-links">
                   <a href="#wellbeing">Well Being</a>
@@ -117,7 +117,7 @@
             </div>
           </div>
           <div class="col-xm-12 col-md-4">
-            <div class="card news mt-4">
+            <div class="card news">
               <div class="card-body">
                 <div class="home-links"><a href="#news">News</a></div>
               </div>
@@ -136,17 +136,17 @@
       </div>
     </div>
     <!-- section 2 -->
-    <section id="news">
+    <div id="news" class="wrapper">
       <div class="containter-fluid p-5">
         <div class="row">
-          <div class="col">
+          <div class="col-xs-12 col-md-4">
             <h1 class="text-center mt-3">News</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col-xs-12 col-md-4">
             <h2>Adoption</h2>
-            <div class="col col-md-8">
+            <div class="col-xs-12 col-md-8">
               <p>
                 <img
                   src="/assets/img/cat_wait.jpg"
@@ -167,17 +167,17 @@
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col-xs-12">
             <h2>Breeders</h2>
-            <div class="col col-md-8">
+            <div class="col-xs-12 col-md-8">
               <span> </span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- section 3 -->
-    <section id="wellbeing">
+    <div id="wellbeing" class="wrapper">
       <div class="containter-fluid p-5">
         <div class="row">
           <div class="col">
@@ -236,9 +236,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- section 4 -->
-    <section id="fun">
+    <div id="fun" class="wrapper">
       <div class="containter-fluid p-5">
         <div class="row">
           <div class="col">
@@ -259,7 +259,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- Java Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

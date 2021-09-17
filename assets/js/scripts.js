@@ -4,7 +4,7 @@ var msgs = new Array(
   "Cat's Lover",
   "Veterinarian",
   "Breeder",
-  "Working for Cats and their Human",
+  "Working for Cats and their Humans",
   "Human"
 );
 
