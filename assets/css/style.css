@@ -50,6 +50,10 @@ section:nth-child(4) p {
   background: transparent;
 }
 
+.nav-link {
+  font-size: 1vw;
+}
+
 .cards {
   margin: 3rem;
 }
@@ -88,6 +92,10 @@ section:nth-child(4) p {
   z-index: 3;
 }
 
+.card-body {
+  padding: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -95,34 +103,38 @@ h3 {
 }
 
 .home-links {
-  font-size: 1.8rem;
+  font-size: 1.4vw;
   text-align: center;
 }
 
 #mainMsg {
   margin-left: 10%;
-  font-size: 4rem;
+  font-size: 4vw;
+  display: inline-block;
 }
 
-p {
-  font-size: 1.3rem;
+#catWatchers {
+  font-size: 3vw;
+}
+
+.text-center {
+  font-size: 2.5vw;
 }
 
 .main-text {
-  line-height: 2;
+  line-height: 150%;
+  margin-top: 4%;
+  padding-top: 3%;
+  font-size: 1.2vw;
 }
 
 a {
-  font-size: 1.3rem;
   text-decoration: none;
-  font-weight: 600;
 }
 
 #id a {
   color: #ff9a14;
-  font-size: 1.3rem;
   text-decoration: none;
-  font-weight: 600;
 }
 
 .fun {
@@ -144,6 +156,13 @@ a {
   width: 100%;
   background: transparent;
   text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column;
+  flex-direction: row;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
