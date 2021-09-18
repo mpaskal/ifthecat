@@ -15,20 +15,18 @@
 
   #home {
     overflow: auto;
-    min-height: fit-content;
   }
 
   #news {
     overflow: auto;
-    height: auto;
   }
 
   #well-being {
-    min-height: fit-content;
+    overflow: auto;
   }
 
   #fun {
-    min-height: fit-content;
+    overflow: auto;
   }
 }
 body {
@@ -170,8 +168,9 @@ a {
 
 #home {
   color: #e68405;
-  height: 100vh;
-  background-color: #fbe5c8;
+  min-height: 100vh;
+  background: #fbe5c8;
+  overflow: auto;
 }
 #home a {
   text-decoration: none;
@@ -181,7 +180,8 @@ a {
 #news {
   color: #3046c5;
   background: #8fdde7;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
 }
 #news a {
   text-decoration: none;
@@ -190,7 +190,8 @@ a {
 #wellbeing {
   color: teal;
   background: #b6e5d8;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
 }
 #wellbeing a {
   text-decoration: none;
@@ -201,6 +202,7 @@ a {
   color: #c53093;
   background: #ffc2c7;
   min-height: 100vh;
+  overflow: auto;
 }
 #fun a {
   text-decoration: none;

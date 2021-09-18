@@ -25,17 +25,15 @@ $header-font: "Alegreya", cursive;
   }
   #home {
     overflow: auto;
-    min-height: fit-content;
   }
   #news {
     overflow: auto;
-    height: auto;
   }
   #well-being {
-    min-height: fit-content;
+    overflow: auto;
   }
   #fun {
-    min-height: fit-content;
+    overflow: auto;
   }
 }
 body {
@@ -168,8 +166,9 @@ a {
 
 #home {
   color: #e68405;
-  height: 100vh;
-  background-color: $color-primary;
+  min-height: 100vh;
+  background: $color-primary;
+  overflow: auto;
   a {
     text-decoration: none;
     color: #e68405;
@@ -179,7 +178,8 @@ a {
 #news {
   color: $color-news;
   background: #8fdde7;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
   a {
     text-decoration: none;
   }
@@ -188,7 +188,8 @@ a {
 #wellbeing {
   color: $color-wellbeing;
   background: #b6e5d8;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
   a {
     text-decoration: none;
     color: teal;
@@ -199,6 +200,7 @@ a {
   color: $color-fun;
   background: $bg-fun;
   min-height: 100vh;
+  overflow: auto;
   a {
     text-decoration: none;
     color: #c53093;
